@@ -15,12 +15,11 @@ import * as pkg from "../../package.json";
   <div class="copyright-box">
     <div class="copyright-p-1">
       ©
-      <a :href="pkg.repository.url" target="_blank" rel="noreferrer">AnZhiYu Air Conditioner</a>
+      <a :href="pkg.repository.url" target="_blank" rel="noreferrer">W1ndys Air Conditioner</a>
       <a class="copyright-p-1-1" href="https://sponsors.yunyoujun.cn" target="_blank" rel="noreferrer">
         <div class="copyright-p-1-1-icon" />
       </a>
-      <a :href="pkg.author.url" target="_blank" rel="noreferrer"> @{{ pkg.author.name }}</a>
-      <a>  Made by Anheyu</a>
+      <a :href="pkg.author.url" target="_blank" rel="noreferrer"> @{{ pkg.author.name }}  Made by Anheyu</a>
     </div>
     <p>2022 - {{ new Date().getFullYear() }}</p>
   </div>
